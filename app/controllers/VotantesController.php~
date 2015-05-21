@@ -115,8 +115,6 @@ class VotantesController extends \BaseController {
 		Votante::destroy($id);
 
 		return Redirect::route('votantes.index');
-
-
 	}
 
 }
